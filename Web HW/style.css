@@ -28,11 +28,6 @@ body {
     margin-right: 10px;
 }
 
-#small-screen-dropdown, #small-screen-dropdown-list {
-    display: none;
-}
-
-
 .header {
     font-family: Arial, Helvetica, sans-serif;
     color: cyan;
@@ -107,11 +102,7 @@ strong {
     background-color: white;
 }
 
-/*
-.table-padding {
-    margin: 20px 0px;
-}
-*/
+
 th {
     font-weight: bold;
 }
@@ -164,39 +155,3 @@ footer {
     color: white;
     border: none;
 }
-
-/*
-@media (max-width: 800px) {
-    .navbar-header {
-        position: static;
-    }
-
-    #small-screen-dropdown {
-        display: block;
-        padding: 10px 15px;
-        color: grey;
-        line-height: 20px;
-        font-size: 100%;
-        text-decoration: none;
-    }
-
-    #small-screen-dropdown-list {
-        display: block;
-        padding-left: 30px;
-    }
-
-    #large-screen-dropdown {
-        display: none;
-    }
-
-    .small-screen-hr {
-        display: block;
-    }
-
-    .comparison-padding {
-        padding: 20px 30px;
-        margin: 20px 20px;
-        background-color: white;
-    }
-}
-*/
