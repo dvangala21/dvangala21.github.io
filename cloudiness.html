@@ -43,32 +43,25 @@
                     </div>
                 </li>
 
+            </ul>
         </div>
     </nav>
-    <!-- Main Content -->
+
     <div class="content-container container-fluid">
         <div class="row">
 
+
             <main class="col-md-7 col-xs-12">
                 <div class="main-padding">
-                    <h1 class="header">Summary: Latitude vs. X</h1>
+                    <h1 class="header">Max Temperature</h1>
                     <hr>
                     <section class="main-content">
-                        <img class="main-image" src="Resources/assets/images/Fig1.png"
-                            alt="max temperature vs latitude">
-                        <p>The purpose of this project was to analyze how temperature, cloudiness,
-                            wind speed, and humidity changes as you get closer to or
-                            further from the equator. </p>
-                        <p>To accomplish this objective, we used the <a
-                                href="https://openweathermap.org/api">OpenWeatherMap API</a> to assemble a dataset on
-                            over 500 cities across different latitudes. After assembling the dataset, we used Matplotlib
-                            to do the visualizations. This site provides the source data,
-                            visualizations, as well as explanations of how weather changes across latitudes on Earth.
-                        </p>
+                        <img class="main-image-nonfloat" src="Resources/assets/images/Fig3.png"
+                            alt="Max Temp vs latitude">
+                        <p>We do not observe any clear relationship with cloudiness and latitude. This is expected as anecdotally we know there are cloudy days in Mexico, and sunny days in Canada quite frequently. </p>
                     </section>
                 </div>
             </main>
-            <!-- Side Content -->
             <side class="col-md-5 col-xs-12">
                 <div class="side-padding">
                     <h2 class="header">Visualizations</h2>
@@ -94,7 +87,7 @@
                                         class="side-image">
                                 </a>
                             </div>
-                            <div class="col-md-6 col-xs-3">
+                            <div class="col-md-6 col-xs-3 side-highlight">
                                 <a href="windspeed.html">
                                     <img src="Resources/assets/images/Fig4.png" alt="wind speed vs latitude"
                                         class="side-image">
@@ -104,8 +97,10 @@
                     </section>
                 </div>
             </side>
+
         </div>
     </div>
+
     <footer class="page-footer font-small">
         <div class="footer-copyright text-center py-3"> 2019 Copyright: Deepak Vangala</a>
         </div>
